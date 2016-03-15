@@ -88,7 +88,7 @@ appIdentifiers.Add(PlayGamesPlatform.Nearby.GetAppBundleId());
             		    Debug.Log("Received connection request: " +
                             request.RemoteEndpoint.DeviceId + " " +
                             request.RemoteEndpoint.EndpointId + " " +
-                            request.RemoteEndpoint.Name)
+                            request.RemoteEndpoint.Name);
                     }
                 );
 ```
